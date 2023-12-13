@@ -1,0 +1,614 @@
+[2023-12-11 09:36:14 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarting Greengram3Application using Java 17.0.8.1 with PID 9040 (D:\2023_second\java\greengram3\target\classes started by Administrator in D:\2023_second\java\greengram3)[0;39m
+[2023-12-11 09:36:14 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-11 09:36:14 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-11 09:36:14 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-11 09:36:15 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8082 (http)[0;39m
+[2023-12-11 09:36:15 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 09:36:15 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-11 09:36:15 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-11 09:36:15 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-11 09:36:15 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 850 ms[0;39m
+[2023-12-11 09:36:15 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2023-12-11 09:36:15 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-11 09:36:15 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 09:36:15 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8082 (http) with context path ''[0;39m
+[2023-12-11 09:36:15 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarted Greengram3Application in 1.83 seconds (process running for 2.326)[0;39m
+[2023-12-11 09:36:23 [32mINFO [0;39m http-nio-8082-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-11 09:36:23 [32mINFO [0;39m http-nio-8082-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-11 09:36:23 [32mINFO [0;39m http-nio-8082-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2023-12-11 09:36:23 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 09:36:23 [32mINFO [0;39m http-nio-8082-exec-6] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2023-12-11 09:36:23 [32mINFO [0;39m http-nio-8082-exec-6] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@3ad32c47[0;39m
+[2023-12-11 09:36:23 [32mINFO [0;39m http-nio-8082-exec-6] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2023-12-11 09:36:25 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=3, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 09:36:25 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.user.UserController] [36mdto: UserInfoSelDto(targetIuser=3, loginedIuser=3)[0;39m
+[2023-12-11 09:36:25 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=1, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 09:36:36 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=1, startIdx=0, rowCount=30)[0;39m
+[2023-12-11 09:36:36 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=1, startIdx=30, rowCount=30)[0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)[0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarting Greengram3Application using Java 17.0.8.1 with PID 9040 (D:\2023_second\java\greengram3\target\classes started by Administrator in D:\2023_second\java\greengram3)[0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8082 (http)[0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 200 ms[0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8082 (http) with context path ''[0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarted Greengram3Application in 0.416 seconds (process running for 1377.801)[0;39m
+[2023-12-11 09:59:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2023-12-11 09:59:12 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)[0;39m
+[2023-12-11 09:59:12 [32mINFO [0;39m Thread-7] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 09:59:12 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarting Greengram3Application using Java 17.0.8.1 with PID 9040 (D:\2023_second\java\greengram3\target\classes started by Administrator in D:\2023_second\java\greengram3)[0;39m
+[2023-12-11 09:59:12 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-11 09:59:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8082 (http)[0;39m
+[2023-12-11 09:59:13 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 09:59:13 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-11 09:59:13 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-11 09:59:13 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-11 09:59:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 157 ms[0;39m
+[2023-12-11 09:59:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2023-12-11 09:59:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-11 09:59:13 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 09:59:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8082 (http) with context path ''[0;39m
+[2023-12-11 09:59:13 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarted Greengram3Application in 0.293 seconds (process running for 1379.55)[0;39m
+[2023-12-11 09:59:13 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2023-12-11 10:06:03 [32mINFO [0;39m http-nio-8082-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-11 10:06:03 [32mINFO [0;39m http-nio-8082-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-11 10:06:03 [32mINFO [0;39m http-nio-8082-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-11 10:06:03 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=1, startIdx=0, rowCount=30)[0;39m
+[2023-12-11 10:06:03 [32mINFO [0;39m http-nio-8082-exec-1] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-2 - Starting...[0;39m
+[2023-12-11 10:06:03 [32mINFO [0;39m http-nio-8082-exec-1] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-2 - Added connection org.mariadb.jdbc.Connection@59ca0e7[0;39m
+[2023-12-11 10:06:03 [32mINFO [0;39m http-nio-8082-exec-1] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-2 - Start completed.[0;39m
+[2023-12-11 10:06:03 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=1, startIdx=30, rowCount=30)[0;39m
+[2023-12-11 10:06:03 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=1, startIdx=0, rowCount=30)[0;39m
+[2023-12-11 10:06:03 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=1, startIdx=30, rowCount=30)[0;39m
+[2023-12-11 10:06:04 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=1, startIdx=0, rowCount=30)[0;39m
+[2023-12-11 10:06:04 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=1, startIdx=30, rowCount=30)[0;39m
+[2023-12-11 10:06:10 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 10:06:13 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedCommentController] [36mdto: FeedCommentInsDto(ifeedComment=0, iuser=3, ifeed=6, comment=ㅇㄴ)[0;39m
+[2023-12-11 10:06:16 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedCommentController] [36mdto: FeedCommentInsDto(ifeedComment=0, iuser=3, ifeed=6, comment=ㄴㅇ)[0;39m
+[2023-12-11 10:06:20 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=3, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 10:06:20 [32mINFO [0;39m http-nio-8082-exec-5] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=1, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 10:06:20 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.user.UserController] [36mdto: UserInfoSelDto(targetIuser=3, loginedIuser=3)[0;39m
+[2023-12-11 10:06:22 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 10:06:24 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.feed.FeedCommentController] [36mdto: FeedCommentInsDto(ifeedComment=0, iuser=3, ifeed=6, comment=ㄹㄴ)[0;39m
+[2023-12-11 10:06:26 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.feed.FeedCommentController] [36mdto: FeedCommentInsDto(ifeedComment=0, iuser=3, ifeed=6, comment=ㄴㅇ)[0;39m
+[2023-12-11 10:06:31 [33mWARN [0;39m http-nio-8082-exec-5] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [36mResolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported][0;39m
+[2023-12-11 10:06:31 [33mWARN [0;39m http-nio-8082-exec-4] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [36mResolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported][0;39m
+[2023-12-11 10:06:31 [33mWARN [0;39m http-nio-8082-exec-1] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [36mResolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported][0;39m
+[2023-12-11 10:06:38 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.user.UserController] [36mdto: UserInfoSelDto(targetIuser=3, loginedIuser=3)[0;39m
+[2023-12-11 10:06:38 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=3, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 10:06:38 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=1, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 10:06:41 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=1, startIdx=0, rowCount=30)[0;39m
+[2023-12-11 10:06:41 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=1, startIdx=30, rowCount=30)[0;39m
+[2023-12-11 10:06:45 [32mINFO [0;39m http-nio-8082-exec-5] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 10:06:47 [32mINFO [0;39m http-nio-8082-exec-5] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=20, rowCount=20)[0;39m
+[2023-12-11 10:06:47 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=40, rowCount=20)[0;39m
+[2023-12-11 10:06:47 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=60, rowCount=20)[0;39m
+[2023-12-11 10:06:47 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=80, rowCount=20)[0;39m
+[2023-12-11 10:06:47 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=100, rowCount=20)[0;39m
+[2023-12-11 10:06:47 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=120, rowCount=20)[0;39m
+[2023-12-11 10:06:47 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=140, rowCount=20)[0;39m
+[2023-12-11 10:06:47 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=160, rowCount=20)[0;39m
+[2023-12-11 10:06:47 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=180, rowCount=20)[0;39m
+[2023-12-11 10:06:47 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=200, rowCount=20)[0;39m
+[2023-12-11 10:06:47 [32mINFO [0;39m http-nio-8082-exec-5] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=220, rowCount=20)[0;39m
+[2023-12-11 10:06:48 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=240, rowCount=20)[0;39m
+[2023-12-11 10:06:48 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=260, rowCount=20)[0;39m
+[2023-12-11 10:06:49 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=280, rowCount=20)[0;39m
+[2023-12-11 10:06:49 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=300, rowCount=20)[0;39m
+[2023-12-11 10:06:49 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=320, rowCount=20)[0;39m
+[2023-12-11 10:06:49 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=340, rowCount=20)[0;39m
+[2023-12-11 10:06:49 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=360, rowCount=20)[0;39m
+[2023-12-11 10:06:49 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=380, rowCount=20)[0;39m
+[2023-12-11 10:06:49 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=400, rowCount=20)[0;39m
+[2023-12-11 10:06:49 [32mINFO [0;39m http-nio-8082-exec-5] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=420, rowCount=20)[0;39m
+[2023-12-11 10:06:49 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=440, rowCount=20)[0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)[0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m Thread-11] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m Thread-11] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-2 - Shutdown initiated...[0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m Thread-11] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-2 - Shutdown completed.[0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarting Greengram3Application using Java 17.0.8.1 with PID 9040 (D:\2023_second\java\greengram3\target\classes started by Administrator in D:\2023_second\java\greengram3)[0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8082 (http)[0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 159 ms[0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8082 (http) with context path ''[0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarted Greengram3Application in 0.309 seconds (process running for 2008.721)[0;39m
+[2023-12-11 10:09:42 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2023-12-11 10:13:08 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)[0;39m
+[2023-12-11 10:13:08 [32mINFO [0;39m Thread-15] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 10:13:08 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarting Greengram3Application using Java 17.0.8.1 with PID 9040 (D:\2023_second\java\greengram3\target\classes started by Administrator in D:\2023_second\java\greengram3)[0;39m
+[2023-12-11 10:13:08 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-11 10:13:08 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8082 (http)[0;39m
+[2023-12-11 10:13:08 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 10:13:08 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-11 10:13:08 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-11 10:13:08 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-11 10:13:08 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 146 ms[0;39m
+[2023-12-11 10:13:08 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2023-12-11 10:13:08 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-11 10:13:08 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 10:13:08 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8082 (http) with context path ''[0;39m
+[2023-12-11 10:13:08 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarted Greengram3Application in 0.274 seconds (process running for 2214.837)[0;39m
+[2023-12-11 10:13:08 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2023-12-11 13:19:10 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarting Greengram3Application using Java 17.0.8.1 with PID 4332 (D:\2023_second\java\greengram3\target\classes started by Administrator in D:\2023_second\java\greengram3)[0;39m
+[2023-12-11 13:19:10 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-11 13:19:10 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-11 13:19:10 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-11 13:19:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8082 (http)[0;39m
+[2023-12-11 13:19:11 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 13:19:11 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-11 13:19:11 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-11 13:19:11 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-11 13:19:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 723 ms[0;39m
+[2023-12-11 13:19:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2023-12-11 13:19:12 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-11 13:19:12 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 13:19:12 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8082 (http) with context path ''[0;39m
+[2023-12-11 13:19:12 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarted Greengram3Application in 1.564 seconds (process running for 1.922)[0;39m
+[2023-12-11 13:19:19 [32mINFO [0;39m http-nio-8082-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-11 13:19:19 [32mINFO [0;39m http-nio-8082-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-11 13:19:19 [32mINFO [0;39m http-nio-8082-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-11 13:19:19 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 13:19:19 [32mINFO [0;39m http-nio-8082-exec-3] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2023-12-11 13:19:19 [32mINFO [0;39m http-nio-8082-exec-3] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@5ac8614e[0;39m
+[2023-12-11 13:19:19 [32mINFO [0;39m http-nio-8082-exec-3] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2023-12-11 13:19:27 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=20, rowCount=20)[0;39m
+[2023-12-11 13:19:27 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=40, rowCount=20)[0;39m
+[2023-12-11 13:19:27 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=60, rowCount=20)[0;39m
+[2023-12-11 13:19:27 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=80, rowCount=20)[0;39m
+[2023-12-11 13:19:27 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=100, rowCount=20)[0;39m
+[2023-12-11 13:19:27 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=120, rowCount=20)[0;39m
+[2023-12-11 13:19:27 [32mINFO [0;39m http-nio-8082-exec-5] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=140, rowCount=20)[0;39m
+[2023-12-11 13:19:27 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=160, rowCount=20)[0;39m
+[2023-12-11 13:19:27 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=180, rowCount=20)[0;39m
+[2023-12-11 13:19:27 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=200, rowCount=20)[0;39m
+[2023-12-11 13:19:27 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=3, targetIuser=0, isFavList=0, startIdx=220, rowCount=20)[0;39m
+[2023-12-11 13:19:31 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=1, startIdx=0, rowCount=30)[0;39m
+[2023-12-11 13:19:31 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=1, startIdx=30, rowCount=30)[0;39m
+[2023-12-11 13:19:46 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2023-12-11 13:19:46 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2023-12-11 16:52:38 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarting Greengram3Application using Java 17.0.8.1 with PID 4008 (D:\2023_second\java\greengram3\target\classes started by Administrator in D:\2023_second\java\greengram3)[0;39m
+[2023-12-11 16:52:38 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-11 16:52:38 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-11 16:52:38 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-11 16:52:39 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8082 (http)[0;39m
+[2023-12-11 16:52:39 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 16:52:39 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-11 16:52:39 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-11 16:52:39 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-11 16:52:39 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 695 ms[0;39m
+[2023-12-11 16:52:39 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2023-12-11 16:52:40 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-11 16:52:40 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 16:52:40 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8082 (http) with context path ''[0;39m
+[2023-12-11 16:52:40 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarted Greengram3Application in 1.523 seconds (process running for 1.858)[0;39m
+[2023-12-11 16:52:44 [32mINFO [0;39m http-nio-8082-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-11 16:52:44 [32mINFO [0;39m http-nio-8082-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-11 16:52:44 [32mINFO [0;39m http-nio-8082-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2023-12-11 16:52:44 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 16:52:44 [32mINFO [0;39m http-nio-8082-exec-7] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2023-12-11 16:52:44 [32mINFO [0;39m http-nio-8082-exec-7] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@3f63f604[0;39m
+[2023-12-11 16:52:44 [32mINFO [0;39m http-nio-8082-exec-7] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2023-12-11 16:52:58 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.user.UserController] [36mdto: UserInfoSelDto(targetIuser=0, loginedIuser=0)[0;39m
+[2023-12-11 16:52:58 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 16:52:58 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=1, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 17:24:36 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)[0;39m
+[2023-12-11 17:24:36 [32mINFO [0;39m Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 17:24:36 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2023-12-11 17:24:36 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2023-12-11 17:24:36 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarting Greengram3Application using Java 17.0.8.1 with PID 4008 (D:\2023_second\java\greengram3\target\classes started by Administrator in D:\2023_second\java\greengram3)[0;39m
+[2023-12-11 17:24:36 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-11 17:24:36 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8082 (http)[0;39m
+[2023-12-11 17:24:36 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 17:24:36 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-11 17:24:36 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-11 17:24:36 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-11 17:24:36 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 261 ms[0;39m
+[2023-12-11 17:24:36 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2023-12-11 17:24:37 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-11 17:24:37 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 17:24:37 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8082 (http) with context path ''[0;39m
+[2023-12-11 17:24:37 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarted Greengram3Application in 0.453 seconds (process running for 1918.813)[0;39m
+[2023-12-11 17:24:37 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2023-12-11 17:24:38 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)[0;39m
+[2023-12-11 17:24:38 [32mINFO [0;39m Thread-7] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 17:24:38 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarting Greengram3Application using Java 17.0.8.1 with PID 4008 (D:\2023_second\java\greengram3\target\classes started by Administrator in D:\2023_second\java\greengram3)[0;39m
+[2023-12-11 17:24:38 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-11 17:24:38 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8082 (http)[0;39m
+[2023-12-11 17:24:38 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 17:24:38 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-11 17:24:38 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-11 17:24:38 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-11 17:24:38 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 155 ms[0;39m
+[2023-12-11 17:24:38 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2023-12-11 17:24:38 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-11 17:24:38 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 17:24:38 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8082 (http) with context path ''[0;39m
+[2023-12-11 17:24:38 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarted Greengram3Application in 0.304 seconds (process running for 1920.586)[0;39m
+[2023-12-11 17:24:38 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2023-12-11 17:26:05 [32mINFO [0;39m http-nio-8082-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-11 17:26:05 [32mINFO [0;39m http-nio-8082-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-11 17:26:05 [32mINFO [0;39m http-nio-8082-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-11 17:26:05 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 17:26:05 [32mINFO [0;39m http-nio-8082-exec-8] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-2 - Starting...[0;39m
+[2023-12-11 17:26:05 [32mINFO [0;39m http-nio-8082-exec-8] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-2 - Added connection org.mariadb.jdbc.Connection@4e78928a[0;39m
+[2023-12-11 17:26:05 [32mINFO [0;39m http-nio-8082-exec-8] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-2 - Start completed.[0;39m
+[2023-12-11 17:26:11 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 17:53:43 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 17:53:43 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.user.UserController] [36mdto: UserInfoSelDto(targetIuser=0, loginedIuser=0)[0;39m
+[2023-12-11 17:53:43 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=1, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 17:53:45 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto : FeedFavDto(ifeed=6, iuser=0)[0;39m
+[2023-12-11 17:53:45 [33mWARN [0;39m http-nio-8082-exec-8] [org.mariadb.jdbc.message.server.ErrorPacket] [36mError: 1452-23000: Cannot add or update a child row: a foreign key constraint fails (`greengram3`.`t_feed_fav`, CONSTRAINT `t_feed_fav_ibfk_2` FOREIGN KEY (`iuser`) REFERENCES `t_user` (`iuser`))[0;39m
+[2023-12-11 17:53:45 [31mERROR[0;39m http-nio-8082-exec-8] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] [36mServlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: (conn=145) Cannot add or update a child row: a foreign key constraint fails (`greengram3`.`t_feed_fav`, CONSTRAINT `t_feed_fav_ibfk_2` FOREIGN KEY (`iuser`) REFERENCES `t_user` (`iuser`))
+### The error may exist in file [D:\2023_second\java\greengram3\target\classes\mappers\FeedFavMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: INSERT INTO t_feed_fav         SET ifeed = ?         , iuser = ?
+### Cause: java.sql.SQLIntegrityConstraintViolationException: (conn=145) Cannot add or update a child row: a foreign key constraint fails (`greengram3`.`t_feed_fav`, CONSTRAINT `t_feed_fav_ibfk_2` FOREIGN KEY (`iuser`) REFERENCES `t_user` (`iuser`))
+; (conn=145) Cannot add or update a child row: a foreign key constraint fails (`greengram3`.`t_feed_fav`, CONSTRAINT `t_feed_fav_ibfk_2` FOREIGN KEY (`iuser`) REFERENCES `t_user` (`iuser`))] with root cause[0;39m
+java.sql.SQLIntegrityConstraintViolationException: (conn=145) Cannot add or update a child row: a foreign key constraint fails (`greengram3`.`t_feed_fav`, CONSTRAINT `t_feed_fav_ibfk_2` FOREIGN KEY (`iuser`) REFERENCES `t_user` (`iuser`))
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:290)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:370)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:134)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:883)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:822)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:741)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:665)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:92)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:271)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at jdk.proxy2/jdk.proxy2.$Proxy77.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy6/jdk.proxy6.$Proxy108.insFeedFav(Unknown Source)
+	at com.green.greengram3.feed.FeedService.toggleFeedFav(FeedService.java:77)
+	at com.green.greengram3.feed.FeedController.toggleFeedFav(FeedController.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2023-12-11 17:56:19 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:05:34 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto : FeedFavDto(ifeed=1, iuser=1)[0;39m
+[2023-12-11 18:05:41 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto : FeedFavDto(ifeed=1, iuser=1)[0;39m
+[2023-12-11 18:05:42 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.feed.FeedController] [36mdto : FeedFavDto(ifeed=1, iuser=1)[0;39m
+[2023-12-11 18:05:48 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:05:50 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto : FeedFavDto(ifeed=6, iuser=0)[0;39m
+[2023-12-11 18:05:50 [33mWARN [0;39m http-nio-8082-exec-6] [org.mariadb.jdbc.message.server.ErrorPacket] [36mError: 1452-23000: Cannot add or update a child row: a foreign key constraint fails (`greengram3`.`t_feed_fav`, CONSTRAINT `t_feed_fav_ibfk_2` FOREIGN KEY (`iuser`) REFERENCES `t_user` (`iuser`))[0;39m
+[2023-12-11 18:05:50 [31mERROR[0;39m http-nio-8082-exec-6] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] [36mServlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: (conn=155) Cannot add or update a child row: a foreign key constraint fails (`greengram3`.`t_feed_fav`, CONSTRAINT `t_feed_fav_ibfk_2` FOREIGN KEY (`iuser`) REFERENCES `t_user` (`iuser`))
+### The error may exist in file [D:\2023_second\java\greengram3\target\classes\mappers\FeedFavMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: INSERT INTO t_feed_fav         SET ifeed = ?         , iuser = ?
+### Cause: java.sql.SQLIntegrityConstraintViolationException: (conn=155) Cannot add or update a child row: a foreign key constraint fails (`greengram3`.`t_feed_fav`, CONSTRAINT `t_feed_fav_ibfk_2` FOREIGN KEY (`iuser`) REFERENCES `t_user` (`iuser`))
+; (conn=155) Cannot add or update a child row: a foreign key constraint fails (`greengram3`.`t_feed_fav`, CONSTRAINT `t_feed_fav_ibfk_2` FOREIGN KEY (`iuser`) REFERENCES `t_user` (`iuser`))] with root cause[0;39m
+java.sql.SQLIntegrityConstraintViolationException: (conn=155) Cannot add or update a child row: a foreign key constraint fails (`greengram3`.`t_feed_fav`, CONSTRAINT `t_feed_fav_ibfk_2` FOREIGN KEY (`iuser`) REFERENCES `t_user` (`iuser`))
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:290)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:370)
+	at org.mariadb.jdbc.message.ClientMessage.readPacket(ClientMessage.java:134)
+	at org.mariadb.jdbc.client.impl.StandardClient.readPacket(StandardClient.java:883)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResults(StandardClient.java:822)
+	at org.mariadb.jdbc.client.impl.StandardClient.readResponse(StandardClient.java:741)
+	at org.mariadb.jdbc.client.impl.StandardClient.execute(StandardClient.java:665)
+	at org.mariadb.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:92)
+	at org.mariadb.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:271)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at jdk.proxy2/jdk.proxy2.$Proxy77.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy6/jdk.proxy6.$Proxy108.insFeedFav(Unknown Source)
+	at com.green.greengram3.feed.FeedService.toggleFeedFav(FeedService.java:77)
+	at com.green.greengram3.feed.FeedController.toggleFeedFav(FeedController.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2023-12-11 18:38:53 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto : FeedFavDto(ifeed=1, iuser=1)[0;39m
+[2023-12-11 18:38:53 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto : FeedFavDto(ifeed=1, iuser=1)[0;39m
+[2023-12-11 18:38:54 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto : FeedFavDto(ifeed=1, iuser=1)[0;39m
+[2023-12-11 18:40:44 [32mINFO [0;39m http-nio-8082-exec-5] [com.green.greengram3.user.UserController] [36mdto: UserInfoSelDto(targetIuser=0, loginedIuser=0)[0;39m
+[2023-12-11 18:40:44 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:40:44 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=1, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:40:56 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=20, rowCount=20)[0;39m
+[2023-12-11 18:41:05 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:41:08 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=20, rowCount=20)[0;39m
+[2023-12-11 18:41:08 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=40, rowCount=20)[0;39m
+[2023-12-11 18:41:08 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=60, rowCount=20)[0;39m
+[2023-12-11 18:41:08 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=80, rowCount=20)[0;39m
+[2023-12-11 18:41:08 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=100, rowCount=20)[0;39m
+[2023-12-11 18:41:08 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=120, rowCount=20)[0;39m
+[2023-12-11 18:41:09 [32mINFO [0;39m http-nio-8082-exec-5] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=140, rowCount=20)[0;39m
+[2023-12-11 18:41:09 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=160, rowCount=20)[0;39m
+[2023-12-11 18:41:09 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=180, rowCount=20)[0;39m
+[2023-12-11 18:41:09 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=200, rowCount=20)[0;39m
+[2023-12-11 18:41:09 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=220, rowCount=20)[0;39m
+[2023-12-11 18:41:09 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=240, rowCount=20)[0;39m
+[2023-12-11 18:41:09 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=260, rowCount=20)[0;39m
+[2023-12-11 18:41:09 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=280, rowCount=20)[0;39m
+[2023-12-11 18:41:09 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=300, rowCount=20)[0;39m
+[2023-12-11 18:41:09 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=320, rowCount=20)[0;39m
+[2023-12-11 18:41:09 [32mINFO [0;39m http-nio-8082-exec-5] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=340, rowCount=20)[0;39m
+[2023-12-11 18:41:09 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=360, rowCount=20)[0;39m
+[2023-12-11 18:41:10 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=380, rowCount=20)[0;39m
+[2023-12-11 18:41:10 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=400, rowCount=20)[0;39m
+[2023-12-11 18:41:10 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=420, rowCount=20)[0;39m
+[2023-12-11 18:41:10 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=440, rowCount=20)[0;39m
+[2023-12-11 18:41:10 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=460, rowCount=20)[0;39m
+[2023-12-11 18:41:10 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=480, rowCount=20)[0;39m
+[2023-12-11 18:41:10 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=500, rowCount=20)[0;39m
+[2023-12-11 18:41:10 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=520, rowCount=20)[0;39m
+[2023-12-11 18:41:10 [32mINFO [0;39m http-nio-8082-exec-5] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=540, rowCount=20)[0;39m
+[2023-12-11 18:41:10 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=560, rowCount=20)[0;39m
+[2023-12-11 18:41:10 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=580, rowCount=20)[0;39m
+[2023-12-11 18:41:10 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=600, rowCount=20)[0;39m
+[2023-12-11 18:41:10 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=620, rowCount=20)[0;39m
+[2023-12-11 18:41:10 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=640, rowCount=20)[0;39m
+[2023-12-11 18:41:11 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=660, rowCount=20)[0;39m
+[2023-12-11 18:41:11 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=680, rowCount=20)[0;39m
+[2023-12-11 18:41:11 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=700, rowCount=20)[0;39m
+[2023-12-11 18:41:11 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=0, targetIuser=0, isFavList=0, startIdx=720, rowCount=20)[0;39m
+[2023-12-11 18:44:29 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-2 - Shutdown initiated...[0;39m
+[2023-12-11 18:44:29 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-2 - Shutdown completed.[0;39m
+[2023-12-11 18:44:47 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarting Greengram3Application using Java 17.0.8.1 with PID 3856 (D:\2023_second\java\greengram3\target\classes started by Administrator in D:\2023_second\java\greengram3)[0;39m
+[2023-12-11 18:44:47 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-11 18:44:47 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-11 18:44:47 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-11 18:44:47 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8082 (http)[0;39m
+[2023-12-11 18:44:47 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 18:44:47 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-11 18:44:47 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-11 18:44:47 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-11 18:44:47 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 696 ms[0;39m
+[2023-12-11 18:44:48 [32mINFO [0;39m restartedMain] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping] [36mAdding welcome page: class path resource [static/index.html][0;39m
+[2023-12-11 18:44:48 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-11 18:44:48 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8082"][0;39m
+[2023-12-11 18:44:48 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8082 (http) with context path ''[0;39m
+[2023-12-11 18:44:48 [32mINFO [0;39m restartedMain] [com.green.greengram3.Greengram3Application] [36mStarted Greengram3Application in 1.517 seconds (process running for 1.869)[0;39m
+[2023-12-11 18:44:50 [32mINFO [0;39m http-nio-8082-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-11 18:44:50 [32mINFO [0;39m http-nio-8082-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-11 18:44:50 [32mINFO [0;39m http-nio-8082-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2023-12-11 18:44:59 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.user.UserController] [36mdto: UserSigninDto(uid=최동현, upw=1212)[0;39m
+[2023-12-11 18:44:59 [32mINFO [0;39m http-nio-8082-exec-7] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2023-12-11 18:44:59 [32mINFO [0;39m http-nio-8082-exec-7] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@6f535ce2[0;39m
+[2023-12-11 18:44:59 [32mINFO [0;39m http-nio-8082-exec-7] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2023-12-11 18:45:03 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.user.UserController] [36mdto: UserSigninDto(uid=최동현, upw=ehdgus)[0;39m
+[2023-12-11 18:45:03 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:45:06 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=0, rowCount=30)[0;39m
+[2023-12-11 18:45:06 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=30, rowCount=30)[0;39m
+[2023-12-11 18:45:14 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=0, rowCount=30)[0;39m
+[2023-12-11 18:45:14 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=30, rowCount=30)[0;39m
+[2023-12-11 18:45:15 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.user.UserController] [36mdto: UserInfoSelDto(targetIuser=2, loginedIuser=2)[0;39m
+[2023-12-11 18:45:15 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:45:15 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=1, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:45:16 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=20, rowCount=20)[0;39m
+[2023-12-11 18:45:16 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=40, rowCount=20)[0;39m
+[2023-12-11 18:45:16 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=60, rowCount=20)[0;39m
+[2023-12-11 18:45:16 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=80, rowCount=20)[0;39m
+[2023-12-11 18:45:16 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=100, rowCount=20)[0;39m
+[2023-12-11 18:45:16 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=120, rowCount=20)[0;39m
+[2023-12-11 18:45:16 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=140, rowCount=20)[0;39m
+[2023-12-11 18:45:16 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=160, rowCount=20)[0;39m
+[2023-12-11 18:45:16 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=180, rowCount=20)[0;39m
+[2023-12-11 18:45:16 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=200, rowCount=20)[0;39m
+[2023-12-11 18:45:16 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=220, rowCount=20)[0;39m
+[2023-12-11 18:45:16 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=240, rowCount=20)[0;39m
+[2023-12-11 18:45:16 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=260, rowCount=20)[0;39m
+[2023-12-11 18:45:16 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=280, rowCount=20)[0;39m
+[2023-12-11 18:45:17 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=300, rowCount=20)[0;39m
+[2023-12-11 18:45:17 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=320, rowCount=20)[0;39m
+[2023-12-11 18:45:17 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=340, rowCount=20)[0;39m
+[2023-12-11 18:45:17 [32mINFO [0;39m http-nio-8082-exec-5] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=360, rowCount=20)[0;39m
+[2023-12-11 18:45:17 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=380, rowCount=20)[0;39m
+[2023-12-11 18:45:17 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=400, rowCount=20)[0;39m
+[2023-12-11 18:45:17 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=420, rowCount=20)[0;39m
+[2023-12-11 18:45:17 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=440, rowCount=20)[0;39m
+[2023-12-11 18:45:17 [32mINFO [0;39m http-nio-8082-exec-5] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=460, rowCount=20)[0;39m
+[2023-12-11 18:45:17 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=480, rowCount=20)[0;39m
+[2023-12-11 18:45:17 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=500, rowCount=20)[0;39m
+[2023-12-11 18:45:17 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=520, rowCount=20)[0;39m
+[2023-12-11 18:45:19 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=20, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=40, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=60, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=80, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=100, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=120, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-5] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=140, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=160, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=180, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=200, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=220, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=240, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=260, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=280, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=300, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=320, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-5] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=340, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=360, rowCount=20)[0;39m
+[2023-12-11 18:45:20 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=380, rowCount=20)[0;39m
+[2023-12-11 18:45:21 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto : FeedFavDto(ifeed=1, iuser=2)[0;39m
+[2023-12-11 18:45:23 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto : FeedFavDto(ifeed=1, iuser=2)[0;39m
+[2023-12-11 18:45:43 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=400, rowCount=20)[0;39m
+[2023-12-11 18:45:43 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=420, rowCount=20)[0;39m
+[2023-12-11 18:45:43 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=440, rowCount=20)[0;39m
+[2023-12-11 18:45:43 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=460, rowCount=20)[0;39m
+[2023-12-11 18:45:43 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=480, rowCount=20)[0;39m
+[2023-12-11 18:45:43 [32mINFO [0;39m http-nio-8082-exec-5] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=500, rowCount=20)[0;39m
+[2023-12-11 18:45:43 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=520, rowCount=20)[0;39m
+[2023-12-11 18:45:43 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=540, rowCount=20)[0;39m
+[2023-12-11 18:45:43 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=560, rowCount=20)[0;39m
+[2023-12-11 18:45:43 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=580, rowCount=20)[0;39m
+[2023-12-11 18:45:47 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=0, rowCount=30)[0;39m
+[2023-12-11 18:45:47 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=30, rowCount=30)[0;39m
+[2023-12-11 18:45:49 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:45:57 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=0, rowCount=30)[0;39m
+[2023-12-11 18:45:57 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=30, rowCount=30)[0;39m
+[2023-12-11 18:46:05 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:46:11 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=0, rowCount=30)[0;39m
+[2023-12-11 18:46:11 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=30, rowCount=30)[0;39m
+[2023-12-11 18:46:33 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:46:38 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.user.UserController] [36mdto: UserInfoSelDto(targetIuser=2, loginedIuser=2)[0;39m
+[2023-12-11 18:46:38 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=2, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:46:38 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=1, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:46:46 [32mINFO [0;39m http-nio-8082-exec-5] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=0, rowCount=30)[0;39m
+[2023-12-11 18:46:46 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=30, rowCount=30)[0;39m
+[2023-12-11 18:47:00 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:47:02 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.feed.FeedCommentController] [36mdto: FeedCommentInsDto(ifeedComment=0, iuser=2, ifeed=6, comment=ㅇㅎ)[0;39m
+[2023-12-11 18:48:41 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=0, rowCount=30)[0;39m
+[2023-12-11 18:48:42 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=30, rowCount=30)[0;39m
+[2023-12-11 18:49:08 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:49:10 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=0, rowCount=30)[0;39m
+[2023-12-11 18:49:11 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=30, rowCount=30)[0;39m
+[2023-12-11 18:49:11 [32mINFO [0;39m http-nio-8082-exec-3] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=60, rowCount=30)[0;39m
+[2023-12-11 18:49:22 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:49:25 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:49:27 [32mINFO [0;39m http-nio-8082-exec-6] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=0, rowCount=30)[0;39m
+[2023-12-11 18:49:28 [32mINFO [0;39m http-nio-8082-exec-1] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=30, rowCount=30)[0;39m
+[2023-12-11 18:49:28 [32mINFO [0;39m http-nio-8082-exec-4] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=60, rowCount=30)[0;39m
+[2023-12-11 18:49:28 [32mINFO [0;39m http-nio-8082-exec-9] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=90, rowCount=30)[0;39m
+[2023-12-11 18:49:38 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.feed.FeedController] [36mdto: FeedSelDto(page=0, loginedIuser=2, targetIuser=0, isFavList=0, startIdx=0, rowCount=20)[0;39m
+[2023-12-11 18:49:40 [32mINFO [0;39m http-nio-8082-exec-7] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=0, rowCount=30)[0;39m
+[2023-12-11 18:49:42 [32mINFO [0;39m http-nio-8082-exec-8] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=30, rowCount=30)[0;39m
+[2023-12-11 18:49:42 [32mINFO [0;39m http-nio-8082-exec-10] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=60, rowCount=30)[0;39m
+[2023-12-11 18:49:42 [32mINFO [0;39m http-nio-8082-exec-2] [com.green.greengram3.dm.DmControllor] [36mdto : DmMsgSelDto(page=0, idm=3, startIdx=90, rowCount=30)[0;39m
+[2023-12-11 20:16:09 [32mINFO [0;39m http-nio-8082-exec-5] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 150 ms[0;39m
+[2023-12-11 20:29:44 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2023-12-11 20:29:44 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m

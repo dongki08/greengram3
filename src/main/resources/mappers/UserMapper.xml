@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.green.greengram3.user.UserMapper">
+    <insert id="insUser" useGeneratedKeys="true" keyProperty="iuser">
+        INSERT INTO t_user
+        SET uid = #{uid}
+        , upw = #{upw}
+        , nm = #{nm}
+        , pic = #{pic}
+    </insert>
+
+    <select id="selUser">
+        SELECT iuser, uid, upw, nm, pic, created_at AS createdAt, updated_at AS updatedAt
+        FROM t_user
+        <where>
+            <if test=" uid != null and uid != '' ">
+                uid = #{uid}
+            </if>
+            <if test="iuser > 0">
+                iuser = #{iuser}
+            </if>
+        </where>
+    </select>
+
+    <insert id="insFowUser">
+        insert into t_user_follow
+        set from_iuser = #{fromIuser},
+        to_iuser = #{toIuser}
+    </insert>
+
+    <delete id="delFowUser">
+        delete from t_user_follow
+        where from_iuser = #{fromIuser}
+        and to_iuser = #{toIuser}
+    </delete>
+
+    <select id="selUserInfo">
+        SELECT COUNT(DISTINCT b.ifeed)AS feedCnt, COUNT(c.ifeed) AS favCnt
+        , a.nm, a.created_at AS createdAt, a.pic
+        , d.follower, d.following, d.followState
+        FROM t_user a
+        LEFT JOIN t_feed b
+        ON a.iuser = b.iuser
+        LEFT JOIN t_feed_fav c
+        ON b.ifeed = c.ifeed
+        JOIN
+        (SELECT SUM(if(from_iuser = #{targetIuser}, 1, 0)) AS following
+        , SUM(if(to_iuser = #{targetIuser}, 1, 0)) AS follower
+        , (SUM(if(from_iuser = #{loginedIuser} and to_iuser = #{targetIuser}, 1, 0))
+        + SUM(if(from_iuser = #{targetIuser} and to_iuser = #{loginedIuser}, 2, 0))
+        ) AS followState
+        FROM t_user_follow
+        ) d
+        where a.iuser = #{targetIuser}
+    </select>
+</mapper>
