@@ -22,8 +22,7 @@
     </select>
 
     <delete id="delFeedCommentAll">
-        delete
-        from t_feed_comment
-        where ifeed = #{ifeed}
+        DELETE FROM t_feed_comment
+        WHERE ifeed = #{ifeed}
     </delete>
 </mapper>

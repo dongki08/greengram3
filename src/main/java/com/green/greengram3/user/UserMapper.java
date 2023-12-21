@@ -8,7 +8,9 @@ public interface UserMapper {
     int insUser(UserSignupProcDto dto);
     UserEntity selUser(UserSelDto dto);
     UserInfoVo selUserInfo(UserInfoSelDto dto);
-    
-    int insFowUser(UserFollowDto dto);
-    int delFowUser(UserFollowDto dto);
+    int updUserFirebaseToken(UserFirebaseTokenPatchDto dto);
+    int updUserPic(UserPicPatchDto dto);
+
+    int insUserFollow(UserFollowDto dto);
+    int delUserFollow(UserFollowDto dto);
 }

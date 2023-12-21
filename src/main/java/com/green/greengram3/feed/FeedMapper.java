@@ -12,7 +12,5 @@ import java.util.List;
 public interface FeedMapper {
     int insFeed(FeedInsDto p);
     List<FeedSelVo> selFeedAll(FeedSelDto p);
-
-
     int delFeed(FeedDelDto dto);
 }

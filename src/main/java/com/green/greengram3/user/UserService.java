@@ -49,6 +49,7 @@ public class UserService {
                 .iuser(entity.getIuser())
                 .nm(entity.getNm())
                 .pic(entity.getPic())
+                .firebaseToken(entity.getFirebaseToken())
                 .build();
     }
 
@@ -56,12 +57,22 @@ public class UserService {
         return mapper.selUserInfo(dto);
     }
 
+    public ResVo patchUserFirebaseToken(UserFirebaseTokenPatchDto dto) {
+        int affectedRows = mapper.updUserFirebaseToken(dto);
+        return new ResVo(affectedRows);
+    }
+
+    public ResVo patchUserPic(UserPicPatchDto dto) {
+        int affectedRows = mapper.updUserPic(dto);
+        return new ResVo(affectedRows);
+    }
+
     public ResVo toggleFollow(UserFollowDto dto) {
-        int delAffectedRows = mapper.delFowUser(dto);
+        int delAffectedRows = mapper.delUserFollow(dto);
         if(delAffectedRows == 1) {
             return new ResVo(Const.FAIL);
         }
-        int insAffectedRows = mapper.insFowUser(dto);
+        int insAffectedRows = mapper.insUserFollow(dto);
         return new ResVo(Const.SUCCESS);
     }
 }

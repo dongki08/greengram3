@@ -16,13 +16,13 @@
         WHERE ifeed = #{ifeed}
     </select>
 
-    <delete id="delFeedPics">
-        delete a
-        from t_feed_pics a
-        join t_feed b
-        on a.ifeed = b.ifeed
-        where b.ifeed = #{ifeed}
-        and b.iuser = #{iuser}
+    <delete id="delFeedPicsAll">
+        DELETE A
+        FROM t_feed_pics A
+        INNER JOIN t_feed B
+        ON A.ifeed = B.ifeed
+        WHERE B.ifeed = #{ifeed}
+        AND B.iuser = #{iuser}
     </delete>
 
 </mapper>

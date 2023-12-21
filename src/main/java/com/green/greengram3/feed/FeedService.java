@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.beans.Transient;
+import java.util.ArrayList;
 import java.util.List;
 
 @Slf4j
@@ -22,8 +23,9 @@ public class FeedService {
 
     public ResVo postFeed(FeedInsDto dto) {
         int feedAffectedRows = mapper.insFeed(dto);
+        log.info("feedAffectedRows:{}", feedAffectedRows);
         int feedPicsAffectedRows = picsMapper.insFeedPics(dto);
-
+        log.info("feedPicsAffectedRows:{}", feedPicsAffectedRows);
         return new ResVo(dto.getIfeed());
     }
 
@@ -33,6 +35,7 @@ public class FeedService {
         FeedCommentSelDto fcDto = new FeedCommentSelDto();
         fcDto.setStartIdx(0);
         fcDto.setRowCount(Const.FEED_COMMENT_FIRST_CNT);
+
         for(FeedSelVo vo : list) {
             List<String> pics = picsMapper.selFeedPicsAll(vo.getIfeed());
             vo.setPics(pics);

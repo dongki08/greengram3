@@ -42,7 +42,6 @@ public class FeedController {
         return service.delFeed(dto);
     }
 
-
     @GetMapping("/fav")
     @Operation(summary = "좋아요 toggle", description = "toggle로 처리함<br>")
     @ApiResponses(value = {

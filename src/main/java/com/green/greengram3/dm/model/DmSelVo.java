@@ -2,9 +2,8 @@ package com.green.greengram3.dm.model;
 
 import lombok.Builder;
 import lombok.Data;
-import lombok.Getter;
 
-@Getter
+@Data
 @Builder
 public class DmSelVo {
     private int idm;
@@ -13,5 +12,4 @@ public class DmSelVo {
     private int otherPersonIuser;
     private String otherPersonNm;
     private String otherPersonPic;
-
 }
