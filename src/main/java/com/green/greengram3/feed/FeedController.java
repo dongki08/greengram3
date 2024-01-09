@@ -12,6 +12,7 @@ import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Slf4j
@@ -33,7 +34,8 @@ public class FeedController {
             "<br><br>page: 페이지<br>loginedIuser: 로그인한 유저 pk")
     public List<FeedSelVo> getFeedAll(FeedSelDto dto) {
         log.info("dto: {}", dto);
-        return service.getFeedAll(dto);
+        List<FeedSelVo> vo = service.getFeedAll(dto);
+        return vo;
     }
 
     @DeleteMapping

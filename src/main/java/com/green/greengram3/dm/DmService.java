@@ -31,11 +31,13 @@ public class DmService {
     private final ObjectMapper objMapper;
 
     public List<DmSelVo> getDmAll(DmSelDto dto) {
+
         return mapper.selDmAll(dto);
     }
 
     public DmSelVo postDm(DmInsDto dto) {
-        Integer isExistDm = mapper.selDmUserCheck(dto);
+        Integer isExistDm = mapper.selDmUserCheck(dto)
+                ;
         log.info("isExistDm: {}", isExistDm);
         if(isExistDm != null) { //이미 방이 있는 경우
             return null;

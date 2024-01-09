@@ -53,8 +53,8 @@ class FeedServiceTest {
         dto.setIfeed(200);
         ResVo vo2 = service.postFeed(dto2);
         assertEquals(dto2.getIfeed(), vo2.getResult());
-
     }
+
     @Test
     public void getFeedAll() {
         FeedSelVo feedSelVo1 = new FeedSelVo();
@@ -174,5 +174,15 @@ class FeedServiceTest {
             assertEquals(vo.getPics(), pics2);
             //위 방법과 동일
         }
+
+        List<FeedCommentSelVo> commentResult1 = list.get(0).getComments();
+        assertEquals(cmtsFeed1, commentResult1, "ifeed(1) 댓글");
+        assertEquals(0, list.get(0). getIsMoreComment(), "ifeed(1) isMoreComment ");
+        assertEquals(2, list.get(0).getComments().size());
+
+        List<FeedCommentSelVo> commentResult2 = list.get(1).getComments();
+        assertEquals(cmtsFeed2, commentResult2, "ifeed(2) 댓글");
+        assertEquals(1, "ifeed(2) isMoreComment ");
+        assertEquals(3, cmtsFeed2.size());
     }
 }

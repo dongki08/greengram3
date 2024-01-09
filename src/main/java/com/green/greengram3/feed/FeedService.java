@@ -31,6 +31,7 @@ public class FeedService {
 
     public List<FeedSelVo> getFeedAll(FeedSelDto dto) {
         List<FeedSelVo> list = mapper.selFeedAll(dto);
+        //feedselvo 타입 리스트안에 selfeedall 쿼리문을 넣는다
 
         FeedCommentSelDto fcDto = new FeedCommentSelDto();
         fcDto.setStartIdx(0);
@@ -69,6 +70,7 @@ public class FeedService {
         int feedAffectedRows = mapper.delFeed(dto);
         return new ResVo(Const.SUCCESS);
     }
+
 
     //--------------- t_feed_fav
     public ResVo toggleFeedFav(FeedFavDto dto) {

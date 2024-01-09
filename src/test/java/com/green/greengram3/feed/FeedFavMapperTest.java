@@ -23,7 +23,12 @@ class FeedFavMapperTest {
         FeedFavDto dto = new FeedFavDto();
         dto.setIfeed(3);
         dto.setIuser(1);
-
+//      신호가 올 때 저장공간이 4개가 생깁니다.
+//      page Request session - 개인 공간
+//      application - 전용 공간
+//      page - 안에있는 공간이어서 우리는 못봅니다. 웹 하면을 만들 때 쓰는 변수
+//      Request - 브라우저에서 쓰는 공간, 요청 들어올 때마다 새거
+//      브라우저가 꺼지지 않는 이상 같은 공간, 새션에 유니크한 공간을 할당해 줍니다. (요청을 보내고 15분정도 안쓰면 소멸)
         int affectedRows1 = mapper.insFeedFav(dto);
         assertEquals(1, affectedRows1, "첫번재 insert");
 

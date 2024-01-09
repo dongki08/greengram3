@@ -17,8 +17,9 @@ public class UserService {
 
     public ResVo signup(UserSignupDto dto) {
         String salt = BCrypt.gensalt();
+        // 비밀번호 + salt로 암호화된 비밀번호 생성
         String hashedPw = BCrypt.hashpw(dto.getUpw(), salt);
-        //비밀번호 암호화
+        // 비밀번호 검증, 로그인 부분에서 사용된다.
 
         UserSignupProcDto pDto = new UserSignupProcDto();
         pDto.setUid(dto.getUid());
